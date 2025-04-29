@@ -847,13 +847,13 @@ a:focus {
 }
 
 .btn-primary {
-  background-color: #003366; /* Dark navy */
-  color: #ffffff; /* White text */
+  background-color: #003366;
+  color: #ffffff;
   border: none;
 }
 
 .btn-primary:hover {
-  background-color: #002244; /* Even darker on hover */
+  background-color: #002244;
 }
 
 /*# sourceMappingURL=style.css.map */
