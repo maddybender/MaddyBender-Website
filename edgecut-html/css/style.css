@@ -845,4 +845,15 @@ a:focus {
 .footer_section p a {
   color: inherit;
 }
+
+.btn-primary {
+  background-color: #003366; /* Dark navy */
+  color: #ffffff; /* White text */
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #002244; /* Even darker on hover */
+}
+
 /*# sourceMappingURL=style.css.map */
