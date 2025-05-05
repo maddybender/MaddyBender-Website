@@ -61,6 +61,8 @@
 </head>
 
 <body class="sub_page">
+
+  <!-- Header / Nav -->
   <div class="hero_area">
     <header class="header_section long_section px-0">
       <nav class="navbar navbar-expand-lg custom_nav-container">
@@ -70,7 +72,6 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
           <span class=""> </span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
             <ul class="navbar-nav">
@@ -85,12 +86,13 @@
     </header>
   </div>
 
+  <!-- About Me Section -->
   <section class="about_section layout_padding long_section">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
           <div class="img-box">
-            <img src="images/photo2.jpg" alt="Maddy Bender">
+            <img src="images/photo2.jpg" alt="Portrait of Maddy Bender">
           </div>
         </div>
         <div class="col-md-6">
@@ -110,17 +112,34 @@
     </div>
   </section>
 
+  <!-- Info Section with Email & Quick Links -->
   <section class="info_section long_section">
     <div class="container">
-      <div class="contact_nav">
+      <div class="contact_nav mb-3">
         <a href="mailto:maddy.bender02@gmail.com">
           <i class="fa fa-envelope" aria-hidden="true"></i>
           <span>Email: maddy.bender02@gmail.com</span>
         </a>
       </div>
+      <div class="info_top">
+        <div class="row">
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="info_links">
+              <h4>QUICK LINKS</h4>
+              <div class="info_links_menu">
+                <a class="" href="index.html">About Me</a>
+                <a class="" href="work.html">Work Experience</a>
+                <a class="" href="projects.html">Important Projects</a>
+                <a class="" href="leadership.html">Leadership & Involvement</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
+  <!-- Footer -->
   <footer class="footer_section">
     <div class="container">
       <p>© <span id="displayYear"></span> Maddy Bender. All Rights Reserved. |
@@ -147,6 +166,9 @@
         document.getElementById("cookie-popup").style.display = "none";
       };
     });
+
+    // Auto-fill year
+    document.getElementById("displayYear").innerHTML = new Date().getFullYear();
   </script>
 
   <!-- Scripts -->
